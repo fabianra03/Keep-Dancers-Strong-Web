@@ -1,5 +1,5 @@
 /* =========================
-   RESET Y BASE
+RESET Y BASE
 ========================= */
 * {
     margin: 0;
@@ -13,6 +13,7 @@ body {
     color: #fff;
     line-height: 1.6;
 }
+
 .video-container video {
     border-radius: 15px;
     width: 200px;
@@ -20,7 +21,7 @@ body {
 }
 
 /* =========================
-   HEADER
+HEADER
 ========================= */
 .header {
     width: 100%;
@@ -58,7 +59,7 @@ body {
 }
 
 /* =========================
-   WELCOME ESTÁTICO
+WELCOME ESTÁTICO
 ========================= */
 .welcome-static {
     position: absolute;
@@ -136,7 +137,7 @@ body {
 }
 
 /* =========================
-   HERO
+HERO
 ========================= */
 .hero {
     width: 100%;
@@ -151,7 +152,7 @@ body {
 }
 
 /* =========================
-   FOOTER
+FOOTER
 ========================= */
 .footer {
     background: #111;
@@ -190,7 +191,7 @@ body {
 }
 
 /* =========================
-   ICONOS FLOTANTES
+ICONOS FLOTANTES
 ========================= */
 .social-floating {
     position: fixed;
@@ -216,7 +217,7 @@ body {
 }
 
 /* =========================
-   MENU HAMBURGUESA CSS
+MENU HAMBURGUESA CSS
 ========================= */
 #menu-toggle {
     display: none;
@@ -255,7 +256,7 @@ MOBILE
         position: absolute;
         top: 70px;
         right: 20px;
-        background: rgba(0,0,0,0.95);
+        background: rgba(0, 0, 0, 0.95);
         flex-direction: column;
         gap: 15px;
         padding: 20px 25px;
@@ -263,7 +264,7 @@ MOBILE
         display: none;
     }
 
-    #menu-toggle:checked + .menu-icon + .navv {
+    #menu-toggle:checked+.menu-icon+.navv {
         display: flex;
     }
 }
@@ -271,15 +272,15 @@ MOBILE
 /* =========================
 ANIMACION ICONO
 ========================= */
-#menu-toggle:checked + .menu-icon span:nth-child(1) {
+#menu-toggle:checked+.menu-icon span:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
 }
 
-#menu-toggle:checked + .menu-icon span:nth-child(2) {
+#menu-toggle:checked+.menu-icon span:nth-child(2) {
     opacity: 0;
 }
 
-#menu-toggle:checked + .menu-icon span:nth-child(3) {
+#menu-toggle:checked+.menu-icon span:nth-child(3) {
     transform: rotate(-45deg) translate(6px, -6px);
 }
 
@@ -303,7 +304,7 @@ CARD
     border-radius: 20px;
     padding: 35px 30px;
     text-align: center;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.6);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
     transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
@@ -384,6 +385,7 @@ RESPONSIVE MOBILE
         font-size: 1.8rem;
     }
 }
+
 .title {
     width: 100%;
     display: flex;
@@ -452,4 +454,3 @@ RESPONSIVE MOBILE
 .card-info p {
     font-size: 15px;
 }
-
